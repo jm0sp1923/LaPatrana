@@ -51,6 +51,10 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://la-patrana-production.up.railway.app',
+]
+
 ROOT_URLCONF = 'mysite.urls'
 
 TEMPLATES = [
